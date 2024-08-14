@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+header{ 
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+}
+.divlogo{
+    position: absolute;
+    padding-bottom: 500px;
+}
+.vermelho{
+    color: red;
+    background-color: red;
+    width: 100%;
+    height: 70px;
+}
+main{
+    height: 200vh;
+    background-color: #80746A;
+    display: block;
+}
+.pizza{ 
+    padding-top: 150px;
+    height: 750px;
+}
+.text{
+    padding-top: 100px;
+    padding-left: 500px;
+}
+#text1{
+    padding-top: 100px;
+    padding-left: 350px;
+}
+.img{
+    height: 150px;
+    padding-left: 15px;
+}
+.txt{
+height: 900px;
+padding-left: 250px;
+}

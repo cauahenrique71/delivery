@@ -1,0 +1,62 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+header{ 
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+}
+.divlogo{
+    position: absolute;
+    padding-bottom: 500px;
+}
+.vermelho{
+    color: red;
+    background-color: red;
+    width: 100%;
+    height: 70px;
+}
+main{
+    height: 100vh;
+    background-color: #80746A;
+    display: block;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: nowrap;
+}
+.produto{
+    height: 150px;
+}
+.divproduto{
+display: flex;
+flex-direction: column;
+padding-top: 25px;
+}
+.flex{
+    padding-bottom: 100px;
+    background-color: #80746A;
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+    flex-wrap: nowrap;
+}
+.pai{
+    background-color: #80746A;  
+    height: 100vh;
+}
+.bnt{
+    padding-left: 900px;
+}
+button{
+    padding:10px 15px 10px 10px;
+    border: none;
+    background-color: #A69494;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
